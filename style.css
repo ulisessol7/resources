@@ -1,0 +1,51 @@
+/******* MapServer App Custom Styles *******/
+
+body {
+    background-color: #2F2433;
+}
+
+#mapContainer {
+    text-align: center;
+    height: 100%;
+    width: auto;
+}
+
+#mapTitle {
+    z-index: 1;
+    font-family: 'Anton', sans-serif;
+    color: #B28900;
+}
+
+#map {
+    height: 100%;
+    width: auto;
+}
+
+#mapLegend {
+    z-index: 1;
+    position: fixed;
+    left: 10px;
+    bottom: 45px;
+}
+
+#mapScalebar {
+    z-index: 1;
+    position: fixed;
+    left: 110px;
+    bottom: 25px
+}
+
+#mapCredits {
+    z-index: 1;
+    position: fixed;
+    left: 15px;
+    bottom: 10px;
+    color: #c4b4b9;
+    font-size: 13px;
+}
+
+#mapAuthor {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 13px;
+    padding-left: 5px;
+}
